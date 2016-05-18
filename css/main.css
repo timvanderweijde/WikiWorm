@@ -1,0 +1,47 @@
+body {
+  font-family: "PT Sans", "Arial", Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #fafafa;
+    /*lightgray;*/
+}
+
+.row {
+    padding-bottom: 30px;
+}
+.img-rounded {
+    background-color: #fafafa;
+    /*border: 0px solid #fff;
+    padding: 6px;*/
+    width: 30%;
+    height: 30%;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+#search-container {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 550px;
+}
