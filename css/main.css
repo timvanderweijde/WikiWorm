@@ -1,3 +1,11 @@
+.btn.btn-default:nth-child(1) {
+    margin-right: 10px;
+    }
+
+    .btn.btn-default:nth-child(2) {
+        margin-left: 10px;
+    }
+    
 @media all and (min-width: 960px) {
 h1{
     font-size: 40px;
@@ -10,12 +18,39 @@ h1{
   }
 }
 
-@media all and (max-width: 599px) and (min-width: 50px) {
+@media all and (max-width: 599px) and (min-width: 254px) {
 h1{
     font-size: 6vw;
   }
+  
+  .btn.btn-default:nth-child(1) {
+    margin-right: 0px;
+    }
+
+    .btn.btn-default:nth-child(2) {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+  
 }
 
+@media all and (max-width: 253px) and (min-width: 50px) {
+    
+    h1{
+    font-size: 6vw;
+  }
+    .btn.btn-default:nth-child(1) {
+    margin-right: 0px;
+    }
+
+    .btn.btn-default:nth-child(2) {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+
+    
 body {
   font-family: "PT Sans", "Arial", Helvetica, sans-serif;
 }
@@ -32,12 +67,19 @@ h1 {
     padding-bottom: 30px;
 }
 
+.col-md-6 {
+}
+
 div.img-worm {
     padding-bottom: 0px;
     padding-top: 40px;
 }
 
 img.img-worm {
+}
+
+.btn.btn-default {
+    width: 110px;
 }
 
 .title {
