@@ -20,7 +20,7 @@ function getDataFromWikiAPI() {
 // Sandbox 
 // https://en.wikipedia.org/wiki/Special:ApiSandbox#action=query&format=json&prop=pageimages%7Cextracts&generator=search&formatversion=2&pilimit=20&exsentences=1&exlimit=20&exintro=1&explaintext=1&gsrsearch=superman&gsrnamespace=0&gsrlimit=10
 //  /w/api.php?action=query&format=json&prop=pageimages%7Cextracts&generator=search&formatversion=2&pilimit=20&exsentences=1&exlimit=20&exintro=1&explaintext=1&gsrsearch=superman&gsrnamespace=0&gsrlimit=10
- 
+    
     function parseData(data) {
 
         var hash = data;
