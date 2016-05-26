@@ -28,14 +28,14 @@
 
 <body>
     <div class="container">
-        <div class="row">
+
+        <div class="row img-worm">
             <div class="col-md-12 text-center">
-                <h1>WikiWorm</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="./img/Bkwm.png" alt="wikiworm" class="img-rounded">
+                <img src="./img/bkwm.png" alt="wikiworm" class="img-rounded">
+            <div class="col-md-12 text-right">
+                <div class="title">
+                    <h1>WikiWorm</h1>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -43,9 +43,31 @@
                 <div id="search-container">
                     <div class="inner-addon right-addon">
                         <i class="glyphicon glyphicon-search"></i>
-                        <input id="search-box" type="text" class="form-control" />
+                        <input id="search-box" type="text" class="form-control" value="Doctor Who" />
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <button class="btn btn-default" type="button" id="wikiSearch">Wiki search</button>
+                <button class="btn btn-default" type="button" id="wikiRandom">Random wiki</button>
+            </div>
+        </div>
+        <div class="row result">
+            <div class="col-md-12">
+                <table class="table table-hover result hidden">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h4><a href="#">Superman (1978 film)</a></h4>
+                                <p>sdfsfsf sdf sdf sf sf sf sdf sfs fs fsf </p>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
         </div>
         <div class="row">
